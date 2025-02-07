@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="userlogin.css">
+</head>
+
+<body>
+    <div class="login_form">
+        <h1>user login</h1>
+        <div id="form-input">
+            <form action="#">
+                <input type="text" id="username" placeholder="username">
+                <i class="fa-user fa-solid"></i>
+                <br>
+                <input type="password" id="password" placeholder="password">
+                <i class="fa-user fa-lock"></i>
+                <br>
+                <button id="login">login</button>
+            </form>
+            <div class="footer">don't have an account? <a href="signup.">sign up</a></div>
+            <div class="rights">reserved right @2024</div>
+        </div>
+    </div>
+    <script>
+        const button=document.getElementById("login");
+        button.onclick=function(){
+            alert('login successful');
+        }
+        const form=document.getElementById("form-input")
+        const user=document.getElementById("username");
+        const pass=document.getElementById("password");
+       
+
+       
+    </script>
+
+</body>
+
+</html>
